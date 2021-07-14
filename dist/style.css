@@ -1,0 +1,96 @@
+/*global styling*/
+*{
+  margin: auto;
+}
+body
+{
+  background-image:url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Geometric-Simple-Background-Image.jpg");
+}
+
+#nav-bar {
+ background-color: #baba45;
+ justify-content:center;
+ display:flex;
+ position:fixed;
+ width:100%;
+ flex-wrap:wrap;
+}
+
+ul,li{
+ display:flex;
+ flex-wrap:wrap;
+ font-size: 20px;
+ padding: 10px;
+}
+
+figure{
+ display:flex;
+ max-width:100%;
+}
+body {
+  background-color: black;
+  font-family: 'Lato', sans-serif;
+}
+#video{
+  position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+ }
+#main{
+ display: flex;
+ flex-direction:row;
+ width:100%;
+ justify-content:center;
+}
+
+footer {
+  padding: 20px;
+  border-top: 10px solid blue;
+  text-align: center;
+}
+#things_to_do,#whats_on,#where_to_stay
+{
+  padding: 5px;
+  border: 5px solid black;
+}
+
+#logo{
+  width:80px;
+  border: 5px solid blue;
+  height:80px;
+}
+#container{
+  
+  position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	}
+
+#header-img{
+  
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 560px){
+#nav-bar > img{
+ width:40px;
+ border:5px solid blue;
+ height:40px;
+}
+ #main{
+ display: flex;
+ flex-direction:column;
+ width:100%;
+ justify-content:center;
+}
+ ul,li{
+ display:flex;
+ flex-wrap:wrap;
+ font-size: 15px;
+ padding: 5px;
+}
+}
